@@ -1,8 +1,8 @@
-git init - Init new repository in current folder
-git status - View git repository status
-git add <file> - Add file to staging area
-git commit -m "<Commit message>" - Make commit
-git log - See commit history
+git init - Init new repository in current folder - Создать новый репозиторий в находящейся папке.
+git status - View git repository status - Просмотр статуса GIT репозитория
+git add <file> - Add file to staging area - Добавления файла в "наполнения коммита" для последующего коммита (сначала коммит наполняется разными файлами, а потом уже все файлы заливаются одним коммитом)
+git commit -m "<Commit message>" - Make commit - Создает коммит( заливает все файлы с "наполнения коммита" и присваивает им единый коммит
+git log - See commit history - Просмотр итории коммитов
 git checkout <commit hash> - Switch git repository to specific commit
 git checkout <branch> - Switch git to last commit of specified branch
 git remote add origin <repository path> - Add <repository path> to remote origin server
