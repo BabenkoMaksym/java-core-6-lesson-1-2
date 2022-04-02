@@ -1,0 +1,10 @@
+git init - Init new repository in current folder
+git status - View git repository status
+git add <file> - Add file to staging area
+git commit -m "<Commit message>" - Make commit
+git log - See commit history
+git checkout <commit hash> - Switch git repository to specific commit
+git checkout <branch> - Switch git to last commit of specified branch
+git remote add origin <repository path> - Add <repository path> to remote origin server
+git pull origin <master> - fetch fresh code
+git push origin <branch> - push branch <branch> to remote repository <origin>
