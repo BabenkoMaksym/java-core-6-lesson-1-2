@@ -5,6 +5,6 @@ git commit -m "<Commit message>" - Make commit - Создает коммит( з
 git log - See commit history - Просмотр итории коммитов
 git checkout <commit hash> - Switch git repository to specific commit - Переход репозитория на момент определенного коммита
 git checkout <branch> - Switch git to last commit of specified branch - Переход репозитория на последний коммит указанной ветки(branch)
-git remote add origin <repository path> - Add <repository path> to remote origin server
-git pull origin <master> - fetch fresh code
-git push origin <branch> - push branch <branch> to remote repository <origin>
+git remote add origin <repository path> - Add <repository path> to remote origin server - Добавление репозитория на сервер
+git pull origin <master> - fetch fresh code - Подтягивание свежого кода с сервера (юзать перед началом каждой работы)
+git push origin <branch> - push branch <branch> to remote repository <origin>  - толкнуть свои изменения на сервер.
